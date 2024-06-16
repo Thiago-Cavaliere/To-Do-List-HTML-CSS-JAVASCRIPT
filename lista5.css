@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(168, 161, 161, 0.993);
+}
+
+.display {
+    width: 100%; /* Aumentar a largura para ocupar todo o espaço disponível */
+    padding: 15px; /* Aumentar o padding para tornar o campo mais espaçoso */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    font-size: 23px; /* Aumentar o tamanho da fonte para melhor legibilidade */
+}
+
+.btn {
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 23px; /* Ajustar o tamanho da fonte do botão */
+    width: 100%; /* Tornar o botão da mesma largura do input */
+    max-width: 300px; /* Limitar a largura máxima do botão */
+}
+
+.lista-input {
+    list-style-type: none; /* Remove os pontos das listas */
+    padding-left: 0; /* Remove o recuo à esquerda padrão */
+    width: 100%; /* Ajustar a largura da lista para coincidir com o contêiner */
+    max-width: 300px; /* Limitar a largura máxima da lista */
+    
+}
+
+.lista-input li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.btn-excluir {
+    margin-left: 20px; /* Adiciona um espaço entre o texto do item da lista e o botão de exclusão */
+    background-color: #f44336; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto branca */
+    border: none; /* Remove a borda */
+    padding: 7px 14px; /* Adiciona algum espaço interno ao botão */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima */
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
